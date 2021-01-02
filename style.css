@@ -37,6 +37,9 @@ body {
   font-size: 100px;
   text-shadow: #ffffff 1px 0 15px;
 }
+.main-screen-bg .main-clock .seconds {
+  width: 375px;
+}
 .main-screen-bg .date {
   display: flex;
   justify-content: center;
@@ -84,6 +87,9 @@ body {
     font-size: 150px;
     margin: 0 70px;
   }
+  .main-screen-bg .main-clock .seconds {
+    width: 290px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .main-screen-bg .main-clock span {
@@ -92,6 +98,9 @@ body {
   }
   .main-screen-bg .main-clock .double-dot {
     font-size: 80px;
+  }
+  .main-screen-bg .main-clock .seconds {
+    width: 200px;
   }
   .main-screen-bg .date span {
     font-size: 80px;
@@ -105,6 +114,9 @@ body {
   }
   .main-screen-bg .main-clock .double-dot {
     font-size: 70px;
+  }
+  .main-screen-bg .main-clock .seconds {
+    width: auto;
   }
   .main-screen-bg .date span {
     font-size: 60px;

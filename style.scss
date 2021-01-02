@@ -34,12 +34,15 @@ body {
             text-shadow: #ffffff 1px 0 15px;
             margin: 0 80px;
         }
+
         & .double-dot {
             color: #ffffff;
             font-size: 100px;
             text-shadow: #ffffff 1px 0 15px;
         }
-        
+        & .seconds {
+            width: 375px;
+        }
     }
     & .date {
         display: flex;
@@ -111,7 +114,9 @@ body {
             }
             & .double-dot {
             }
-            
+            & .seconds {
+                width: 290px;
+            }
         }
         & .date {
             & span {
@@ -128,6 +133,9 @@ body {
             }
             & .double-dot {
                 font-size: 80px;
+            }
+            & .seconds {
+                width: 200px;
             }
             
         }
@@ -149,6 +157,9 @@ body {
             }
             & .double-dot {
                 font-size: 70px;
+            }
+            & .seconds {
+                width: auto;
             }
             
         }
