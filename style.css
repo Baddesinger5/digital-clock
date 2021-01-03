@@ -19,6 +19,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  width: 1190px;
   position: absolute;
   z-index: 1;
   top: 40%;
@@ -83,15 +85,22 @@ body {
 }
 /*===============responsive========*/
 @media only screen and (max-width: 1200px) {
+  .main-screen-bg .main-clock {
+    width: 980px;
+  }
   .main-screen-bg .main-clock span {
     font-size: 150px;
     margin: 0 70px;
   }
   .main-screen-bg .main-clock .seconds {
-    width: 290px;
+    width: 295px;
   }
 }
 @media only screen and (max-width: 991px) {
+  .main-screen-bg .main-clock {
+    width: 90%;
+    margin: 0 auto;
+  }
   .main-screen-bg .main-clock span {
     font-size: 120px;
     margin: 0 40px;
@@ -100,14 +109,25 @@ body {
     font-size: 80px;
   }
   .main-screen-bg .main-clock .seconds {
-    width: 200px;
+    width: 225px;
   }
   .main-screen-bg .date span {
     font-size: 80px;
     margin: 0 30px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .main-screen-bg .main-clock {
+    width: 660px;
+  }
+  .main-screen-bg .main-clock .seconds {
+    width: 214px;
+  }
+}
 @media only screen and (max-width: 678px) {
+  .main-screen-bg .main-clock {
+    width: 495px;
+  }
   .main-screen-bg .main-clock span {
     font-size: 100px;
     margin: 0 20px;
@@ -116,7 +136,26 @@ body {
     font-size: 70px;
   }
   .main-screen-bg .main-clock .seconds {
-    width: auto;
+    width: 148px;
+  }
+  .main-screen-bg .date span {
+    font-size: 60px;
+    margin: 0 10px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .main-screen-bg .main-clock {
+    width: 465px;
+  }
+  .main-screen-bg .main-clock span {
+    font-size: 90px;
+    margin: 0 15px;
+  }
+  .main-screen-bg .main-clock .double-dot {
+    font-size: 60px;
+  }
+  .main-screen-bg .main-clock .seconds {
+    width: 130px;
   }
   .main-screen-bg .date span {
     font-size: 60px;
@@ -124,6 +163,9 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
+  .main-screen-bg .main-clock {
+    width: 350px;
+  }
   .main-screen-bg .main-clock span {
     font-size: 80px;
     margin: 0 10px;
@@ -131,18 +173,27 @@ body {
   .main-screen-bg .main-clock .double-dot {
     font-size: 50px;
   }
+  .main-screen-bg .main-clock .seconds {
+    width: 115px;
+  }
   .main-screen-bg .date span {
     font-size: 40px;
     margin: 0 10px;
   }
 }
 @media only screen and (max-width: 360px) {
+  .main-screen-bg .main-clock {
+    width: 290px;
+  }
   .main-screen-bg .main-clock span {
     font-size: 60px;
     margin: 0 5px;
   }
   .main-screen-bg .main-clock .double-dot {
     font-size: 30px;
+  }
+  .main-screen-bg .main-clock .seconds {
+    width: 73px;
   }
   .main-screen-bg .date span {
     font-size: 30px;
