@@ -14,7 +14,7 @@ function clock(){
     let days = (date.getDate() < 10) ? '0' + date.getDate() : date.getDate();
     document.querySelector('#number-of-day').innerHTML = days;
 
-    let daysName = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    let daysName = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     let nameDate = date.getDay();
     document.querySelector('#name-date').innerHTML = daysName[nameDate];
 }
