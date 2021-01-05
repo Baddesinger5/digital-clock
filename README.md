@@ -6,4 +6,4 @@ Free for use :)
 
 Watch this:
 
-<https://simple-clock-and-date.web.app/>
+<https://simple-clock-and-date-48caf.web.app/>
